@@ -1,24 +1,49 @@
 #main_div {
     text-align: center;
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(orange, rgb(255, 172, 186));
+    color: rgb(0, 0, 0);
+    
 
 }
 
 #contenu_div {
-    text-align: center;   
-
+    text-align: center;
+    width: 40%;
+    height: 800px;
+    background-color: rgb(255, 223, 163);
+    transform: translate(75%, 0%);
+    border-radius: 30px;
 }
 
 #cv {
+    padding-top: 45px;
     text-align: center;
-
+    background-color: rgb(160, 159, 159);
+    width: 70%;
+    transform: translate(20%, 30%);
+    height: 135px;
+    border-radius: 30px;
 }
 
 #Me_contacter {
+    padding-top: 45px;
     text-align: center;
-
+    background-color: rgb(160, 159, 159);
+    width: 70%;
+    transform: translate(20%, 60%);
+    height: 140px;
+    border-radius: 30px;
 }
 
 #Ma_thématique {
+    padding-top: 45px;
     text-align: center;
-
+    background-color: rgb(160, 159, 159);
+    width: 70%;
+    transform: translate(20%, 80%);
+    height: 140px;
+    border-radius: 30px;
+    
 }
