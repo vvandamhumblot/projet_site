@@ -1,0 +1,45 @@
+#top {
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    font-size: 12px;
+}
+
+#school {
+    background-color: darkgray;
+    width: 80%;
+    text-align: center;
+    transform: translate(13%, 0%)
+}
+
+#diploma {
+    background-color: darkgray;
+    width: 80%;
+    text-align: center;
+    transform: translate(13%, 0%)
+}
+
+#qualification {
+    background-color: darkgray;
+    width: 80%;
+    text-align: center;
+    transform: translate(13%, 0%)
+}
+
+#Worplace_Training_Period {
+    background-color: darkgray;
+    width: 80%;
+    text-align: center;
+    transform: translate(13%, 0%)
+}
+
+.texte{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(13%, 0%);
+}
+
+.texte2{
+    font-size: 19px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
