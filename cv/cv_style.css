@@ -43,3 +43,12 @@
     font-size: 19px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.image_drapeau {
+    width: 75px;
+}
+
+.image_home {
+    width: 60px;
+    transform: translate(2400%, -100%);
+}
