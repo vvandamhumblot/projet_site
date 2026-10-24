@@ -52,3 +52,15 @@
     width: 60px;
     transform: translate(2400%, -100%);
 }
+
+.retour_ligne {
+    margin-bottom: -15px;
+}
+
+.sauter_de_ligne {
+    margin-bottom: 40px;
+}
+
+.sauter_de_ligne2 {
+    margin-bottom: 20px;  
+}

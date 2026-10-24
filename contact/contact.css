@@ -1,0 +1,19 @@
+#main {
+    background-color: #8e8888;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+
+#contenu {
+    background-color: #cecece;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    transform: translate(50%, 20%);
+    border-radius: 30px;
+}
+
+.image_home {
+    width: 50px;
+}
