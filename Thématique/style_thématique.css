@@ -8,6 +8,12 @@
     border-radius: 30px;
 }
 
+#main2 {
+    background: linear-gradient(rgb(255, 172, 186),rgb(202, 158, 2));
+    height: 3125px;
+    border-radius: 30px;
+}
+
 #sujet_1 {
     width: 80%;
     text-align: center;
