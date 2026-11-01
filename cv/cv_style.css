@@ -1,8 +1,9 @@
 #top {
-    text-align: center;
-    background-color: gray;
-    width: 100%;
-    font-size: 12px;
+    text-align: center; /* centre le texte */
+    background-color: gray; /* couleur de fond */
+    width: 100%; /* prend toute la largeur de la page */
+    font-size: 12px; /* taille de la police */
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* police de caractère */
 }
 
 #school {
@@ -53,14 +54,14 @@
     transform: translate(2400%, -100%);
 }
 
+.saut_de_ligne {
+    padding-top:20px; /* ajout de 20px d'espace entre le texte et l'autre contenu */ 
+}
+
+.saut_de_ligne2 {
+    padding-top:10px; /* ajout de 10px d'espace entre le texte et l'autre contenu */ 
+}
+
 .retour_ligne {
-    margin-bottom: -15px;
-}
-
-.sauter_de_ligne {
-    margin-bottom: 40px;
-}
-
-.sauter_de_ligne2 {
-    margin-bottom: 20px;  
+    margin-top: -25px; /* retire 25px d'espace entre le texte et l'autre contenu */
 }

@@ -1,9 +1,9 @@
 #main_div {
-    text-align: center;
-    width: 100%;
-    height: 1000px;
-    background: linear-gradient(orange, rgb(255, 172, 186));
-    color: rgb(0, 0, 0);
+    text-align: center; /* centre le texte */
+    width: 100%; /* prend toute la largeur de la page */
+    height: 1000px; /* prend toute la hauteur de la page */
+    background: linear-gradient(orange, rgb(255, 172, 186)); /* dégradé de couleur du haut vers le bas */
+    color: rgb(0, 0, 0); /* couleur du texte */
     
 
 }
@@ -14,11 +14,11 @@
     height: 800px;
     background-color: rgb(255, 223, 163);
     transform: translate(75%, 0%);
-    border-radius: 30px;
+    border-radius: 30px; /* arrondi des coins */
 }
 
 #cv {
-    padding-top: 45px;
+    padding-top: 45px; /* ajout de 45px d'espace en haut */
     text-align: center;
     background-color: rgb(160, 159, 159);
     width: 70%;

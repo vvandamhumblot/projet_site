@@ -1,19 +1,27 @@
 #main {
-    background-color: #8e8888;
+    background-color: #8e8888;/* couleur de fond */
     width: 100%;
     height: 1000px;
-    text-align: center;
+    text-align: center; /* centre le texte horizontalement */
 }
 
 #contenu {
     background-color: #cecece;
     width: 50%;
-    height: auto;
+    height: auto; /* taille automatique par rapport au contenu */
     text-align: center;
     transform: translate(50%, 20%);
-    border-radius: 30px;
+    border-radius: 30px; /* arrondi des coins */
 }
 
 .image_home {
     width: 50px;
+}
+
+.saut_de_ligne {
+    padding-top:20px; /* ajout de 20px d'espace entre le texte et l'autre contenu */ 
+}
+
+.retour_ligne {
+    margin-top: -25px; /* retire 25px d'espace entre le texte et l'autre contenu */
 }

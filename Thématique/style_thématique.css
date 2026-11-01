@@ -3,14 +3,14 @@
 }
 
 #main {
-    background: linear-gradient(rgb(255, 172, 186),rgb(202, 158, 2));
+    background: linear-gradient(rgb(255, 172, 186),rgb(202, 158, 2)); /* couleur de fond en dégrader */
     height: 1570px;
     border-radius: 30px;
 }
 
 #main2 {
     background: linear-gradient(rgb(255, 172, 186),rgb(202, 158, 2));
-    height: 3125px;
+    height: 3275px;
     border-radius: 30px;
 }
 
@@ -20,13 +20,55 @@
     border-radius: 30px;
 }
 
+#main4 {
+    background: linear-gradient(rgb(255, 172, 186),rgb(202, 158, 2));
+    height: 1650px;
+    border-radius: 30px;
+}
+
+#main5 {
+    background: linear-gradient(rgb(255, 172, 186),rgb(202, 158, 2));
+    height: 2575px;
+    border-radius: 30px;
+}
+
 #sujet_1 {
     width: 80%;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; /* le texte est au centre */
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* style d'écriture */
     background-color: rgb(190, 189, 189);
     transform: translate(12%, 0%);
-    border-radius: 30px;
+    border-radius: 30px; /* arrondi des bords */
+}
+
+#gauche_2 {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#gauche_1 {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#droite_1 {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#droite_2 {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.colonnes_personnages {
+    display: grid; /*active la mise en grille pour les éléments contenus dans cette classe */
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /* créer 4 colonnes de largeur égale */
+    gap: 25px; /* laisse un espace de 10px entre les ligne et les colonnes */
 }
 
 .image_home {
@@ -47,11 +89,11 @@
 }
 
 .saut_de_ligne {
-    padding-top:20px;
+    padding-top:20px; /* ajout de 20px d'espace entre le texte et l'autre contenu */ 
 }
 
 .retour_ligne {
-    margin-top: -25px;
+    margin-top: -25px; /* retire 25px d'espace entre le texte et l'autre contenu */
 }
 
 .image_roster {
@@ -61,5 +103,10 @@
 
 h6 {
     margin-top: -5px;
-    color: lightgray;
+    color: lightgray; /* couleur du texte */
+}
+
+h5 {
+    margin-top: -5px;
+    color: black;
 }
